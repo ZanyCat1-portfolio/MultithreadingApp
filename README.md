@@ -16,7 +16,7 @@ port for any reason, simply supply that port to the docker run command:
 
 **docker run -p 25565:8080 app_to_serve**
 
-The app is now accessible at 127.0.0.1\<server_port>
+The app is now accessible at 127.0.0.1\25565
 ***
 Instructions for JDK:\
 To run the .jar file with java, ignoring the Dockerfile, 
