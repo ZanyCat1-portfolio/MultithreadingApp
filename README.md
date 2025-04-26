@@ -11,12 +11,12 @@ Sample commands:\
 **docker build -t app_to_serve .**\
 **docker run -p 8080:8080 app_to_serve**
 
-The app is now accessible at 127.0.0.1/8080. If you need to use a different
+The app is now accessible at 127.0.0.1:8080. If you need to use a different
 port for any reason, simply supply that port to the docker run command:
 
 **docker run -p 25565:8080 app_to_serve**
 
-The app is now accessible at 127.0.0.1\25565
+The app is now accessible at 127.0.0.1:25565
 ***
 Instructions for JDK:\
 To run the .jar file with java, ignoring the Dockerfile, 
@@ -26,7 +26,7 @@ on ubuntu cli:
 2. Run the following command:
    * java -jar Landon_Hotel_sample_code-0.0.2-SNAPSHOT.jar
 
-The app is now accessible at 127.0.0.1/8080
+The app is now accessible at 127.0.0.1:8080
 
 This method does not provide for hosting the app at a different port
 
